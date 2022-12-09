@@ -7,5 +7,5 @@ double Bx = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите координату y точки B: ");
 double By = Convert.ToDouble(Console.ReadLine());
 
-double length = Math.Sqrt(Math.Pow(Ax-Bx, 2)+Math.Pow(Ay-By, 2));
+double length = Math.Sqrt(Math.Pow(Bx-Ax, 2)+Math.Pow(By-Ay, 2));
 Console.WriteLine($"Расстояние между точками = {length}");
